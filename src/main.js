@@ -1,12 +1,8 @@
-import App from './components/App.js';
+import Vue from 'vue'
+import App from './App.vue'
 
-// TODO style frame wieder raus?
-// TODO stattdessen global styles und css in js als alternative?
-// TODO examples schöner machen
-// TODO CSS in JS example
-// TODO CSS kopieren
-// TODO babel
+Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
-}).$mount(`#app`);
+  render: h => h(App)
+}).$mount('#app')
